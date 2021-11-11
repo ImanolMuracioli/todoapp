@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+
+import FolderList from './components/FolderList';
+/*import FolderListMUI from './components/FolderListMUI';*/
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Hola</p>
+        <FolderList/>
       </header>
     </div>
   );

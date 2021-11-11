@@ -1,12 +1,12 @@
 import './App.css';
 
 import FolderList from './components/FolderList';
-/*import FolderListMUI from './components/FolderListMUI';*/
+import FolderListMUI from './components/FolderListMUI';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header" >
         <FolderList/>
       </header>
     </div>
